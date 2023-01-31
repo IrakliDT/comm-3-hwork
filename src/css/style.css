@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Plus Jakarta Sans';
+}
+
+
+/* ============================ HEADER ============================ */
+
+header{
+  background-color: #13183F;
+  transition: all 2s;
+}
+
+.header_login-nav {
+  background: #fff;
+}
+
+.header_login-nav-link {
+  color: black;
+  font-size: 10px;
+}
+
+.home-rotate-link{
+  transition: all 1s;
+}
+
+.home-rotate-link:hover{
+  font-size: 50px;
+}
+
+header:hover{
+  background-color: #2e115d;
+}
+
+.header {
+  margin-left: 30px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_nav {
+  width: 1300px;
+  display: flex;
+}
+
+.header_nav-link{
+  text-decoration: none;
+  color: rgb(244, 242, 242);
+}
+
+.home-rotate{
+  transition: all 1s;
+}
+
+.home-rotate:hover{
+  transform:translateY(-20%)
+}
+
+h2{
+  padding: 0 30px 0;
+}
+
+.header_link-login{
+  width: 170px;
+  height: 56px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+  border-radius: 28px;
+  color: #ffff;
+  text-decoration: none;
+
+  transition: all 1s;
+}
+
+.header_link-login:hover{
+  background: pink;
+  color: black;
+}
+
+
+
+/* ============================ SECTION VIENNA ============================ */
+
+section{
+  width: 1400px;
+}
+
+.section_inner {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.section_vienna{
+  width: 1400px;
+  padding-top: 50px;
+  max-width: 100%;
+  display: flex;
+}
+
+.section_texts {
+ max-width: 100%;
+ padding-left: 20%;
+}
+
+.section_text {
+  width: 70%;
+}
+
+.section_imgs {
+  padding-right: 15%;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.section_img {
+  border-radius: 10px;
+}
+
+.section_img2-vienna {
+  padding-left: 6%;
+  padding-top: 7%;
+  align-items: center;
+ 
+}
+.section-vienna2 {
+  border-radius: 5px;
+  width: 1000px;
+  height: 600px;
+}
+
+
+/* ============================ LOG IN ============================ */
+
+.login-outside { 
+  margin: auto;
+  margin-top: 200px;
+  width: 450px;
+  height: 400px;
+  background: #ffff;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.4);
+  border-radius: 15px;
+}
+
+label {
+  display: block;
+}
+ 
+
+.inp-usernm{
+  width: 65%;
+  height: 35px;
+}
+
+.inp-pass{
+  width: 65%;
+  height: 35px;
+}
+
+.login_outside-inner{
+  padding-top: 100px;
+  padding-left: 25%;
+}
+
+.sign-in{
+  align-items: center;
+  margin-top: 20px;
+}
+
+.sign-inn{
+  width: 66%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-size: 18px;
+  background: linear-gradient(180deg, #4851FF -54.32%, #2034e3 100%);
+  border-radius: 3px;
+  color: #ffff;
+  text-decoration: none;
+
+  transition: all 1s;
+}
+
+.sign-inn:hover{
+  background: #ffff;
+  color: black;
+  border: 1px solid;
+}
+
+.forgot{
+  padding-top: 10px;
+  padding-left: 15%;
+  
+}
+
+a{
+  text-decoration: none;
+}
+.forgot_pass {
+  font-size: 15px;
+  color: #125bed;
+  text-decoration: none;
+}
+
+
+/* ============================ CONTACT ============================ */
+
+.contact_info{
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
